@@ -1,5 +1,4 @@
-# pop
-Practice of Programming
+# Practice of Programming
 
 #### Welcome to the Practice of Programming at the Blue Hill Harbor School
 
