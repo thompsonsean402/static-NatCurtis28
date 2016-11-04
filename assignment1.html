@@ -1,5 +1,8 @@
-<!DOCTYPE HTML> <!-- this tells the web browser to expect html --> 
+<!DOCTYPE html> 
+<!-- in html, we use declaration blocks encased in <> called 'tags' -->
 <!-- in html, you write comments by enclosing them in this kind of tag -->
+<!-- the first line of the document tells the web browser to expect html. every
+html document opens like this--> 
 
 <html> <!-- this opens the HTML document -->
 
@@ -8,7 +11,7 @@
     </head> <!-- close the head. note the forward slash - that specifies it
     is a closing tag-->
 
-    <body> <!-- start the document body -->
+    <body> <!-- start the document body with an opening tag -->
 
         <h1> Hello, World! </h1> <!-- there are 6 heading sizes... h1 - h6 -->
         
@@ -20,26 +23,23 @@
         steps into a new and beautiful world, and you should feel proud.
         </p> <!-- then close the paragraph -->
         
+        <h2> So let's get started! </h2> <!-- here is another heading -->
+
         <p> <!-- open a new paragraph in a similar way -->
-        After Hello, we will move on to making your own web page.
-        This is a good way to get you started writing code, becoming
-        comfortable using to learn the command line, learning to use version
-        control, and learning to use GitHub. These lessons will be applicable
-        to any programming language.
-        </p> <!-- ...and close it -->
-
-        <h2> So let's get started! </h2>
-
-        <p>
         The Hello, World program is very simple. It is just a program that
         prints the words "Hello, World!". That's it. We will use it to
         make sure that you know how to use the text editor, can use it to
         create a simple .html document, can commit it to version control, push
-        to a github repository, and create a pull request.
+        to a GitHub repository, and create a pull request.
         </p>
 
         <p>
-        To complete the assignment, you will need to have a text editor
+        When you have done this, you will be familiar with the basic workflow
+        of software development, and then we can really get coding!
+        </p>
+        
+        <p>
+        To complete the Hello assignment, you will need to have a text editor
         installed (Vim is preferred), Git installed and configured, have a
         GitHub profile created, and be linked to the PoP classroom in the BHHS
         organization on GitHub. If you need help setting this up on your
@@ -47,10 +47,28 @@
         without these tools.
         </p>
 
-        <p>
-        When you have done this, you will be familiar with the basic workflow
-        of software development, and then we can really get coding!
-        </p>
+        <ol>
+            <li> Follow the assignment link to create your own repository </li>
+            <li> Open the command line program (Terminal or CMD) </li>
+            <li> cd workspace
+            <li> git clone git@github.com:bhhs/pop1-username </li>
+            <li> cd pop1-username </li>
+            <li> vim hello.html </li>
+            <li> edit the text file to implement the Hello, World! program </li>
+            <li> save the file </li>
+            <li> git add hello.html </li>
+            <li> git commit -m "commit message here" </li>
+            <li> git push origin master </li>
+            <li> Open a pull request for me </li>
+        </ol>
+
+        <p> 
+        After Hello, we will move on to making your own web page.
+        This is a good way to get you started writing code, becoming
+        comfortable using to learn the command line, learning to use version
+        control, and learning to use GitHub. These lessons will be applicable
+        to any programming language.
+        </p> <!-- ...and close it -->
 
     </body> <!-- close the body when you are done -->
 
