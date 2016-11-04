@@ -34,11 +34,6 @@ html document opens like this-->
         </p>
 
         <p>
-        When you have done this, you will be familiar with the basic workflow
-        of software development, and then we can really get coding!
-        </p>
-        
-        <p>
         To complete the Hello assignment, you will need to have a text editor
         installed (Vim is preferred), Git installed and configured, have a
         GitHub profile created, and be linked to the PoP classroom in the BHHS
@@ -50,18 +45,27 @@ html document opens like this-->
         <ol>
             <li> Follow the assignment link to create your own repository </li>
             <li> Open the command line program (Terminal or CMD) </li>
-            <li> cd workspace
-            <li> git clone git@github.com:bhhs/pop1-username </li>
-            <li> cd pop1-username </li>
-            <li> vim hello.html </li>
+            <li> <code> cd workspace </code> to change directory to workspace </li> 
+            <li> <code> git clone git@github.com:bhhs/pop1-username </code> to clone the assignment repository </li> 
+            <li> <code> cd pop1-username </code> change to assignment
+                directory </li>
+            <li> <code> vim hello.html </code> to start editing a new file called
+            hello.html </li>
             <li> edit the text file to implement the Hello, World! program </li>
-            <li> save the file </li>
-            <li> git add hello.html </li>
-            <li> git commit -m "commit message here" </li>
-            <li> git push origin master </li>
-            <li> Open a pull request for me </li>
+            <li> in Normal Mode use <code> :wq </code> to save the file </li>
+            <li> <code> git add hello.html </code> to stage your new file in git
+            </li>
+            <li> <code> git commit -m "commit message here" </code> to commit
+                your changes </li> 
+            <li> <code> git push origin master </code> to push your changes to
+            the remote repository </li> 
         </ol>
 
+        <p>
+        When you have done this, you will be familiar with the basic workflow
+        of software development, and then we can really get coding!
+        </p>
+        
         <p> 
         After Hello, we will move on to making your own web page.
         This is a good way to get you started writing code, becoming
