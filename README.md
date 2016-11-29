@@ -10,7 +10,7 @@ At the end of this course, students will:
 - be able to use the text editor Vim as an Integrated Development Environment
 - be able to use the version control system Git to track the changes to their program over time
 - be able to use GitHub to remotely track project changes
-- be able to use GitHub to access other people's projects (you will become down with OPP)
+- be able to use GitHub to access other people's projects 
 - be able to create a simple webpage with text, image, and style elements using HTML and CSS
 - be able to do research in appropriate locations to answer their software development questions
 
