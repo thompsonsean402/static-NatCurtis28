@@ -5,9 +5,29 @@
     </head>
     <body>
         <h1> Assignment 1: Static Webpage </h1>
+        <p>
         For your next assignment, you will be creating a basic static webpage
         with header, text, and image elements to get practice using html tags.
-        It will also help you get practice using Vim and git.
+        It will also help you get practice using Vim and git. This will be the
+        entryway into designing more complicated websites and working on
+        software projects in other languages. 
+        </p>
+
+        <p>
+        The exact assignment is to create a simple bio webpage that incorporates
+        at least 3 headings, 3 paragrpahs, and 3 images of you or your work. The
+        guide below should help remind you how to use these elements. The
+        project should be completed in at least 3 well-documented commits to
+        GitHub.
+        </p>
+
+        <h4> AS ALWAYS: </h4>
+        <p>
+        <b> If you do not complete this assignment you will get an incomplete
+            for the course, and... if you have any questions COME FIND ME! </b>
+        </p>
+        
+        <hr>
 
         <h3> Headings </h3>
         Headings are created by using the <code> &lt;h1> </code> to <code>
@@ -26,7 +46,10 @@
         <h2> This is a Large heading </h2>
         <h6> this is the smallest smallest heading </h6>
         
+        <hr>
+
         <h3> Text </h3>
+        
         <p> Text is just written within the <code> &lt;body> </code> tags, but
         can be encoded in paragraphs inside <code> &lt;p> </code> tags. Bold
         text is written by the &lt;b> tag. So, for example:
@@ -41,14 +64,38 @@
         <p> This is a paragraph </p>
         <p> <b> This is another paragraph </b> </p>
 
+        <hr>
+
         <h3> Images </h3>
 
         <p> Images are added by using the <code> &lt;img> </code> tag. The
-        syntax is as follows: 
+        syntax is as follows: </p>
         
         <pre>
-        &lt;img src="url" alt="some_text" style="width:width;height:height;">
+        &lt;img src="url" alt="some_text" height="42" width="42">
         </pre>
+
+        <p>
+        The img tag is one that takes multiple arguments. Arguments are
+        independent variables that the user specifies to define the output of
+        the function. For example, the <code>src</code> argument controls the
+        source of the image file to display, often a url. Instead of a url, the
+        <code>src</code> can also be the path to an image file that is relative to the html
+        file. If the image is in the same directory as the html file, it can
+        just be the filename. the <code>alt</code> argument specifies the text
+        that is to be displayed if the image can't be loaded for some reason
+        (for example if the filepath specified for <code>src</code> is invalid). The
+        arguments <code>height</code> and <code>width</code> control
+        (surprise...) the height and width of the image, but are not necessary
+        if you are happy with the size of the image as-is. </p>
+
+        So the code:
+        <pre>
+        &lt;img src="rainbow_kittencorn.jpg" alt="rainbow kittycorn">
+       </pre>
+
+       <p>gets rendered as:</p>
+        <img src="rainbow_kittencorn.jpg" alt="rainbow kittycorn">
 
     </body>
 </html>
